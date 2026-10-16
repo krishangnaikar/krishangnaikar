@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hey, I'm Krishang
+# Hey, I'm Krishang 👋
 
 ### Computer Science @ San José State University | Software Engineering · AI/ML · Automation
 
@@ -13,6 +13,8 @@ I build practical software—from multimodal AI systems and computer vision pipe
 
 ---
 
+<div align="center">
+
 ### 👨‍💻 About me
 
 - 🎓 Studying **Computer Science at San José State University** (expected graduation: **May 2028**).
@@ -20,13 +22,17 @@ I build practical software—from multimodal AI systems and computer vision pipe
 - 🛠️ I like shipping complete projects: **data ingestion → processing → APIs/models → working applications**.
 - 🔍 Currently exploring how to make intelligent systems more useful, reliable, and accessible.
 
+</div>
+
+<div align="center">
+
 ### 🧰 Tools and technologies
 
 **Languages**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 
 **AI / ML and data**
@@ -43,6 +49,10 @@ I build practical software—from multimodal AI systems and computer vision pipe
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)
 ![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white)
+
+</div>
+
+<div align="center">
 
 ### 🚀 Selected projects
 
@@ -89,11 +99,19 @@ Discord bot project connecting chat commands with browser automation workflows.
 
 **See more:** [Browse all my repositories →](https://github.com/krishangnaikar?tab=repositories)
 
+</div>
+
 ### 🏆 GitHub trophies
 
 <div align="center">
 
-[![GitHub trophies](https://github-trophies.devomb.com/?username=krishangnaikar)](https://github.com/krishangnaikar)
+<a href="https://github.com/krishangnaikar">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-trophies.devomb.com/?username=krishangnaikar&amp;theme=darkhub&amp;no-bg=true&amp;no-frame=true&amp;rank=-C,-%3F&amp;column=4&amp;margin-w=12&amp;margin-h=12">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-trophies.devomb.com/?username=krishangnaikar&amp;theme=flat&amp;no-bg=true&amp;no-frame=true&amp;rank=-C,-%3F&amp;column=4&amp;margin-w=12&amp;margin-h=12">
+    <img alt="GitHub trophies (excluding C and unknown ranks)" src="https://github-trophies.devomb.com/?username=krishangnaikar&amp;theme=flat&amp;no-bg=true&amp;no-frame=true&amp;rank=-C,-%3F&amp;column=4&amp;margin-w=12&amp;margin-h=12">
+  </picture>
+</a>
 
 </div>
 
@@ -101,7 +119,11 @@ Discord bot project connecting chat commands with browser automation workflows.
 
 <div align="center">
 
-![GitHub contribution streak](https://streak-stats.demolab.com?user=krishangnaikar&hide_border=true)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=krishangnaikar&amp;theme=github-dark-blue&amp;hide_border=true&amp;background=00000000">
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=krishangnaikar&amp;theme=default&amp;hide_border=true&amp;background=00000000">
+  <img alt="GitHub contribution streak" src="https://streak-stats.demolab.com?user=krishangnaikar&amp;theme=default&amp;hide_border=true&amp;background=00000000">
+</picture>
 
 </div>
 
