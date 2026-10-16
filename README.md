@@ -91,14 +91,13 @@ Discord bot project connecting chat commands with browser automation workflows.
 
 <h3 align="center">GitHub trophies</h3>
 
+<!-- Cached SVGs on the `output` branch, refreshed twice a day by
+     .github/workflows/cache-profile-images.yml -->
 <p align="center">
-<a href="https://github.com/krishangnaikar">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-trophies.devomb.com/?username=krishangnaikar&amp;theme=darkhub&amp;no-bg=true&amp;no-frame=true&amp;title=-Reviews&amp;rank=-C,-%3F&amp;column=-1&amp;margin-w=12&amp;margin-h=12">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-trophies.devomb.com/?username=krishangnaikar&amp;theme=flat&amp;no-bg=true&amp;no-frame=true&amp;title=-Reviews&amp;rank=-C,-%3F&amp;column=-1&amp;margin-w=12&amp;margin-h=12">
-    <img alt="GitHub trophies (excluding Reviews, C and unknown ranks)" src="https://github-trophies.devomb.com/?username=krishangnaikar&amp;theme=flat&amp;no-bg=true&amp;no-frame=true&amp;title=-Reviews&amp;rank=-C,-%3F&amp;column=-1&amp;margin-w=12&amp;margin-h=12">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/krishangnaikar/krishangnaikar/output/trophies-dark.svg">
+    <img alt="GitHub trophies" src="https://raw.githubusercontent.com/krishangnaikar/krishangnaikar/output/trophies-light.svg">
   </picture>
-</a>
 </p>
 
 <h3 align="center">GitHub activity</h3>
@@ -106,9 +105,8 @@ Discord bot project connecting chat commands with browser automation workflows.
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=krishangnaikar&amp;theme=github-dark-blue&amp;hide_border=true&amp;background=00000000">
-  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=krishangnaikar&amp;theme=default&amp;hide_border=true&amp;background=00000000">
-  <img alt="GitHub contribution streak" src="https://streak-stats.demolab.com?user=krishangnaikar&amp;theme=default&amp;hide_border=true&amp;background=00000000">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/krishangnaikar/krishangnaikar/output/streak-dark.svg">
+  <img alt="GitHub contribution streak" src="https://raw.githubusercontent.com/krishangnaikar/krishangnaikar/output/streak-light.svg">
 </picture>
 
 </div>
