@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hey, I'm Krishang 👋
+# Krishang Naikar
 
 ### Computer Science @ San José State University | Software Engineering · AI/ML · Automation
 
@@ -93,19 +93,17 @@ Discord bot project connecting chat commands with browser automation workflows.
 
 **See more:** [Browse all my repositories →](https://github.com/krishangnaikar?tab=repositories)
 
-<div align="center">
+<h3 align="center">🏆 GitHub trophies</h3>
 
-### 🏆 GitHub trophies
-
+<p align="center">
 <a href="https://github.com/krishangnaikar">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-trophies.devomb.com/?username=krishangnaikar&amp;theme=darkhub&amp;no-bg=true&amp;no-frame=true&amp;rank=-C,-%3F&amp;column=4&amp;margin-w=12&amp;margin-h=12">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-trophies.devomb.com/?username=krishangnaikar&amp;theme=flat&amp;no-bg=true&amp;no-frame=true&amp;rank=-C,-%3F&amp;column=4&amp;margin-w=12&amp;margin-h=12">
-    <img alt="GitHub trophies (excluding C and unknown ranks)" src="https://github-trophies.devomb.com/?username=krishangnaikar&amp;theme=flat&amp;no-bg=true&amp;no-frame=true&amp;rank=-C,-%3F&amp;column=4&amp;margin-w=12&amp;margin-h=12">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-trophies.devomb.com/?username=krishangnaikar&amp;theme=darkhub&amp;no-bg=true&amp;no-frame=true&amp;title=-Reviews&amp;rank=-C,-%3F&amp;column=5&amp;margin-w=12&amp;margin-h=12">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-trophies.devomb.com/?username=krishangnaikar&amp;theme=flat&amp;no-bg=true&amp;no-frame=true&amp;title=-Reviews&amp;rank=-C,-%3F&amp;column=5&amp;margin-w=12&amp;margin-h=12">
+    <img width="800" alt="GitHub trophies (excluding Reviews, C and unknown ranks)" src="https://github-trophies.devomb.com/?username=krishangnaikar&amp;theme=flat&amp;no-bg=true&amp;no-frame=true&amp;title=-Reviews&amp;rank=-C,-%3F&amp;column=5&amp;margin-w=12&amp;margin-h=12">
   </picture>
 </a>
-
-</div>
+</p>
 
 ### 📊 GitHub activity
 
