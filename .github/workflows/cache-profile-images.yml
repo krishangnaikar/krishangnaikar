@@ -1,0 +1,153 @@
+# Caches the trophy and streak images shown in the profile README.
+#
+# Why: loading them live means every profile visit waits on third-party
+# servers (cold starts, rate limits, outages). This workflow renders them on a
+# schedule and stores the SVGs on the `output` branch, so the README loads
+# static files straight from GitHub.
+#
+# How: the trophy server (ryo-ma/github-profile-trophy) runs on the runner and
+# is queried on localhost, one trophy at a time. Only trophies at rank B or
+# above (plus secret ones) are kept, then they are stitched into one strip, so
+# filtered-out trophies never leave blank space.
+#
+# Why a separate `output` branch: images are force-pushed there as a single
+# commit that is replaced each run, so main's history stays clean.
+
+name: Cache profile images
+
+on:
+  schedule:
+    # 12:10 AM and 12:10 PM Pacific. Off the hour because GitHub's scheduler
+    # is busiest at :00 and can delay or skip runs then.
+    - cron: "10 0,12 * * *"
+      timezone: "America/Los_Angeles"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/cache-profile-images.yml"
+      - ".github/scripts/**"
+
+permissions:
+  contents: write # push the output branch
+  actions: write  # keep the schedule from being auto-disabled (last step)
+
+concurrency:
+  group: cache-profile-images
+
+jobs:
+  cache:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      USERNAME: krishangnaikar
+      # Every trophy the server knows. Secret ones only render once earned.
+      TITLES: >-
+        AllSuperRank OGUser AncientUser LongTimeUser Joined2020 MultiLanguage
+        Organizations Commits Repositories Stars Followers PullRequest Issues
+        Experience
+      # Ranks to show: B and above, plus SECRET. Drops C and "?" (unknown).
+      RANKS: SECRET,SSS,SS,S,AAA,AA,A,B
+      GAP: "12"
+    steps:
+      - name: Check out this repo
+        uses: actions/checkout@v4
+        with:
+          path: profile
+
+      - name: Check out the trophy server
+        uses: actions/checkout@v4
+        with:
+          repository: ryo-ma/github-profile-trophy
+          path: trophy-server
+
+      - name: Set up Deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v1.44.4
+
+      - name: Start trophy server
+        env:
+          GITHUB_TOKEN1: ${{ github.token }}
+          PORT: "8080"
+        run: |
+          (cd trophy-server && deno run --allow-all main.ts > ../server.log 2>&1 &)
+          for i in $(seq 1 90); do
+            curl --silent --output /dev/null http://localhost:8080/ && exit 0
+            sleep 1
+          done
+          echo "::error::Trophy server did not start"; cat server.log; exit 1
+
+      - name: Render trophies
+        run: |
+          mkdir -p single out
+          for theme in flat darkhub; do
+            earned=()
+            for title in $TITLES; do
+              file="single/$theme-$title.svg"
+              curl --fail --silent --show-error --retry 2 --retry-all-errors --max-time 60 \
+                -o "$file" \
+                "http://localhost:8080/?username=$USERNAME&theme=$theme&no-bg=true&no-frame=true&column=1&rank=$RANKS&title=$title"
+              # A trophy you have earned contains its title as text; anything
+              # filtered out by rank comes back without it and is skipped.
+              if grep -q ">$title</text>" "$file"; then
+                earned+=("$file")
+              fi
+            done
+            if [ ${#earned[@]} -eq 0 ]; then
+              echo "::error::No trophies rendered for theme $theme"; cat server.log; exit 1
+            fi
+            echo "$theme: ${#earned[@]} trophies -> ${earned[*]}"
+            python3 profile/.github/scripts/stitch_trophies.py \
+              "out/trophies-$theme.svg" "$GAP" "${earned[@]}"
+          done
+          mv out/trophies-flat.svg out/trophies-light.svg
+          mv out/trophies-darkhub.svg out/trophies-dark.svg
+
+      - name: Cache streak stats
+        run: |
+          base="https://streak-stats.demolab.com?user=$USERNAME&hide_border=true&background=00000000"
+          for pair in "light:default" "dark:github-dark-blue"; do
+            name="${pair%%:*}"; theme="${pair##*:}"
+            file="out/streak-$name.svg"
+            if curl --fail --silent --show-error --retry 3 --retry-all-errors --max-time 60 \
+                 -o "$file" "$base&theme=$theme" && grep -q "<svg" "$file"; then
+              continue
+            fi
+            # Fall back to the last good copy so a streak-service outage
+            # never blanks the image or blocks the trophy update.
+            echo "::warning::Streak fetch failed for $name; keeping previous image"
+            curl --fail --silent -o "$file" \
+              "https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/output/streak-$name.svg" \
+              || { echo "::error::No previous streak-$name.svg to fall back to"; exit 1; }
+          done
+
+      - name: Publish to output branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cd out
+          git init --quiet --initial-branch=output
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit --quiet -m "Update cached profile images"
+          remote="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+
+          # Skip the push when nothing changed (identical files = identical tree).
+          if git fetch --quiet --depth=1 "$remote" output 2>/dev/null &&
+             [ "$(git rev-parse HEAD^{tree})" = "$(git rev-parse FETCH_HEAD^{tree})" ]; then
+            echo "Images unchanged; nothing to publish."
+            exit 0
+          fi
+
+          git push --quiet --force "$remote" output
+          echo "Published updated images."
+
+      - name: Keep schedule alive
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        # GitHub disables scheduled workflows after 60 days without repo
+        # activity; re-enabling on every run keeps the refresh going.
+        run: gh api --method PUT "repos/${GITHUB_REPOSITORY}/actions/workflows/cache-profile-images.yml/enable"
