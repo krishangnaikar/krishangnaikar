@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hey, I'm Krishang 👋
+# Hey, I'm Krishang
 
 ### Computer Science @ San José State University | Software Engineering · AI/ML · Automation
 
