@@ -13,16 +13,12 @@ I build practical software—from multimodal AI systems and computer vision pipe
 
 ---
 
-<div align="center">
-
 ### 👨‍💻 About me
 
 - 🎓 Studying **Computer Science at San José State University** (expected graduation: **May 2028**).
 - 🧠 Interested in **AI/ML, multimodal systems, computer vision, and backend engineering**.
 - 🛠️ I like shipping complete projects: **data ingestion → processing → APIs/models → working applications**.
 - 🔍 Currently exploring how to make intelligent systems more useful, reliable, and accessible.
-
-</div>
 
 <div align="center">
 
@@ -51,8 +47,6 @@ I build practical software—from multimodal AI systems and computer vision pipe
 ![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white)
 
 </div>
-
-<div align="center">
 
 ### 🚀 Selected projects
 
@@ -99,11 +93,9 @@ Discord bot project connecting chat commands with browser automation workflows.
 
 **See more:** [Browse all my repositories →](https://github.com/krishangnaikar?tab=repositories)
 
-</div>
+<div align="center">
 
 ### 🏆 GitHub trophies
-
-<div align="center">
 
 <a href="https://github.com/krishangnaikar">
   <picture>
