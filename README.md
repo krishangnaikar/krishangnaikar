@@ -13,16 +13,14 @@ I build practical software—from multimodal AI systems and computer vision pipe
 
 ---
 
-### 👨‍💻 About me
+### About me
 
-- 🎓 Studying **Computer Science at San José State University** (expected graduation: **May 2028**).
-- 🧠 Interested in **AI/ML, multimodal systems, computer vision, and backend engineering**.
-- 🛠️ I like shipping complete projects: **data ingestion → processing → APIs/models → working applications**.
-- 🔍 Currently exploring how to make intelligent systems more useful, reliable, and accessible.
+- Studying **Computer Science at San José State University** (expected graduation: **May 2028**).
+- Interested in **AI/ML, multimodal systems, computer vision, and backend engineering**.
+- I like shipping complete projects: **data ingestion → processing → APIs/models → working applications**.
+- Currently exploring how to make intelligent systems more useful, reliable, and accessible.
 
-<div align="center">
-
-### 🧰 Tools and technologies
+### Tools and technologies
 
 **Languages**
 
@@ -46,15 +44,13 @@ I build practical software—from multimodal AI systems and computer vision pipe
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)
 ![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white)
 
-</div>
-
-### 🚀 Selected projects
+### Selected projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-#### [🔎 Multimodal Enterprise RAG](https://github.com/krishangnaikar/Multimodal-Enterprise-RAG)
+#### [Multimodal Enterprise RAG](https://github.com/krishangnaikar/Multimodal-Enterprise-RAG)
 Local-first retrieval system designed for **text, images, audio, and video**. Brings together modular ingestion, embeddings, vector search, and model-based answers.
 
 `Python` `Ollama` `Qdrant` `Streamlit` `FFmpeg`
@@ -62,7 +58,7 @@ Local-first retrieval system designed for **text, images, audio, and video**. Br
 </td>
 <td width="50%" valign="top">
 
-#### [🌼 Image Classification](https://github.com/krishangnaikar/Image-Classifier_FinalProject)
+#### [Image Classification](https://github.com/krishangnaikar/Image-Classifier_FinalProject)
 Training and prediction tools for classifying flower images using **transfer learning**, with CLI workflows for training, saving, and inference.
 
 `Python` `PyTorch` `VGG16` `DenseNet121`
@@ -72,7 +68,7 @@ Training and prediction tools for classifying flower images using **transfer lea
 <tr>
 <td width="50%" valign="top">
 
-#### [🏫 CollegeInfoScraper](https://github.com/krishangnaikar/CollegeInfoScraper)
+#### [CollegeInfoScraper](https://github.com/krishangnaikar/CollegeInfoScraper)
 Automates collection and organization of college-related information, including links and admissions data.
 
 `Python` `Web Scraping` `Data Extraction`
@@ -80,7 +76,7 @@ Automates collection and organization of college-related information, including 
 </td>
 <td width="50%" valign="top">
 
-#### [🤖 Playground AI Discord Bot](https://github.com/krishangnaikar/PlaygroundAIDiscordBot)
+#### [Playground AI Discord Bot](https://github.com/krishangnaikar/PlaygroundAIDiscordBot)
 Discord bot project connecting chat commands with browser automation workflows.
 
 `Python` `Discord` `Selenium`
@@ -93,19 +89,19 @@ Discord bot project connecting chat commands with browser automation workflows.
 
 **See more:** [Browse all my repositories →](https://github.com/krishangnaikar?tab=repositories)
 
-<h3 align="center">🏆 GitHub trophies</h3>
+<h3 align="center">GitHub trophies</h3>
 
 <p align="center">
 <a href="https://github.com/krishangnaikar">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-trophies.devomb.com/?username=krishangnaikar&amp;theme=darkhub&amp;no-bg=true&amp;no-frame=true&amp;title=-Reviews&amp;rank=-C,-%3F&amp;column=5&amp;margin-w=12&amp;margin-h=12">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-trophies.devomb.com/?username=krishangnaikar&amp;theme=flat&amp;no-bg=true&amp;no-frame=true&amp;title=-Reviews&amp;rank=-C,-%3F&amp;column=5&amp;margin-w=12&amp;margin-h=12">
-    <img width="800" alt="GitHub trophies (excluding Reviews, C and unknown ranks)" src="https://github-trophies.devomb.com/?username=krishangnaikar&amp;theme=flat&amp;no-bg=true&amp;no-frame=true&amp;title=-Reviews&amp;rank=-C,-%3F&amp;column=5&amp;margin-w=12&amp;margin-h=12">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-trophies.devomb.com/?username=krishangnaikar&amp;theme=darkhub&amp;no-bg=true&amp;no-frame=true&amp;title=-Reviews&amp;rank=-C,-%3F&amp;column=-1&amp;margin-w=12&amp;margin-h=12">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-trophies.devomb.com/?username=krishangnaikar&amp;theme=flat&amp;no-bg=true&amp;no-frame=true&amp;title=-Reviews&amp;rank=-C,-%3F&amp;column=-1&amp;margin-w=12&amp;margin-h=12">
+    <img alt="GitHub trophies (excluding Reviews, C and unknown ranks)" src="https://github-trophies.devomb.com/?username=krishangnaikar&amp;theme=flat&amp;no-bg=true&amp;no-frame=true&amp;title=-Reviews&amp;rank=-C,-%3F&amp;column=-1&amp;margin-w=12&amp;margin-h=12">
   </picture>
 </a>
 </p>
 
-### 📊 GitHub activity
+<h3 align="center">GitHub activity</h3>
 
 <div align="center">
 
