@@ -1,80 +1,116 @@
-# 👋 Hi, I’m Krishang Naikar
+<div align="center">
 
-<p align="center">
-CS @ San Jose State University • AI Systems • Backend & Data Pipelines
-</p>
+# Hey, I'm Krishang 👋
 
-<p align="center">
-  <a href="mailto:krishangnaikar7@gmail.com">Email</a> •
-  <a href="https://linkedin.com/in/krishang-naikar-26aa6a255">LinkedIn</a> •
-  <a href="https://github.com/krishangnaikar">GitHub</a>
-</p>
+### Computer Science @ San José State University | Software Engineering · AI/ML · Automation
 
----
+I build practical software—from multimodal AI systems and computer vision pipelines to bots, scrapers, and developer tools.
 
-## 🚀 What I Do
-- Build **production-style AI systems (RAG, multimodal, local LLMs)**
-- Design **backend systems and high-throughput data pipelines**
-- Focus on **real-world deployment, not just demos**
+[![GitHub](https://img.shields.io/badge/GitHub-krishangnaikar-181717?style=for-the-badge&logo=github)](https://github.com/krishangnaikar)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/krishang-naikar-26aa6a255)
+
+</div>
 
 ---
 
-## 🧠 Key Impact
+### 👨‍💻 About me
 
-- Co-founded **GradAchiever** → built automation + data systems for student planning  
-- Built **Java + Python data pipelines** for analytics and large-scale data extraction  
-- Developed a **multimodal RAG system (text, image, audio, video)** with local LLMs  
+- 🎓 Studying **Computer Science at San José State University** (expected graduation: **May 2028**).
+- 🧠 Interested in **AI/ML, multimodal systems, computer vision, and backend engineering**.
+- 🛠️ I like shipping complete projects: **data ingestion → processing → APIs/models → working applications**.
+- 🔍 Currently exploring how to make intelligent systems more useful, reliable, and accessible.
+
+### 🧰 Tools and technologies
+
+**Languages**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+
+**AI / ML and data**
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat-square)
+![RAG](https://img.shields.io/badge/RAG-5B50A2?style=flat-square)
+
+**Engineering and automation**
+
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)
+![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white)
+
+### 🚀 Selected projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### [🔎 Multimodal Enterprise RAG](https://github.com/krishangnaikar/Multimodal-Enterprise-RAG)
+Local-first retrieval system designed for **text, images, audio, and video**. Brings together modular ingestion, embeddings, vector search, and model-based answers.
+
+`Python` `Ollama` `Qdrant` `Streamlit` `FFmpeg`
+
+</td>
+<td width="50%" valign="top">
+
+#### [🌼 Image Classification](https://github.com/krishangnaikar/Image-Classifier_FinalProject)
+Training and prediction tools for classifying flower images using **transfer learning**, with CLI workflows for training, saving, and inference.
+
+`Python` `PyTorch` `VGG16` `DenseNet121`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [🏫 CollegeInfoScraper](https://github.com/krishangnaikar/CollegeInfoScraper)
+Automates collection and organization of college-related information, including links and admissions data.
+
+`Python` `Web Scraping` `Data Extraction`
+
+</td>
+<td width="50%" valign="top">
+
+#### [🤖 Playground AI Discord Bot](https://github.com/krishangnaikar/PlaygroundAIDiscordBot)
+Discord bot project connecting chat commands with browser automation workflows.
+
+`Python` `Discord` `Selenium`
+
+</td>
+</tr>
+</table>
+
+**Also built:** [Minecraft-Mod](https://github.com/krishangnaikar/Minecraft-Mod) — Java-based Minecraft modding experiments.
+
+**See more:** [Browse all my repositories →](https://github.com/krishangnaikar?tab=repositories)
+
+### 🏆 GitHub trophies
+
+<div align="center">
+
+[![GitHub trophies](https://github-trophies.devomb.com/?username=krishangnaikar)](https://github.com/krishangnaikar)
+
+</div>
+
+### 📊 GitHub activity
+
+<div align="center">
+
+![GitHub contribution streak](https://streak-stats.demolab.com?user=krishangnaikar&hide_border=true)
+
+</div>
 
 ---
 
-## 🛠️ Tech Stack
+<div align="center">
 
-**Languages**  
-Python • Java • C/C++ • SQL  
+**Always learning. Always building.**
 
-**AI / ML**  
-RAG • PyTorch • LangChain • Ollama • LLaVA • Embeddings  
+[GitHub](https://github.com/krishangnaikar) · [LinkedIn](https://linkedin.com/in/krishang-naikar-26aa6a255)
 
-**Backend & Infra**  
-PostgreSQL • REST APIs • Docker • Data Pipelines  
-
-**Systems / Tools**  
-Qdrant • Tesseract • FFmpeg • Git  
-
----
-
-## 📌 Featured Work
-
-### 🔹 Multimodal Graph-RAG System  
-👉 https://github.com/krishangnaikar/Multimodal-Enterprise-RAG  
-
-- Built a **local, privacy-first AI system** (no external APIs)  
-- Integrated **LLMs + vision + embeddings + vector database (Qdrant)**  
-- Supports **text, image, audio, and video ingestion + retrieval**  
-- Designed as a **modular, production-style ML system**  
-
----
-
-### 🔹 Image Classification Pipeline (PyTorch)
-
-- Built an **end-to-end ML pipeline** with training and inference  
-- Implemented **transfer learning (VGG16 / DenseNet)**  
-- Designed a **reproducible CLI-based workflow** for experimentation  
-
----
-
-## 🎯 What I’m Looking For
-
-- Software Engineering / AI Internships  
-- Roles in **autonomy, ML systems, or backend infrastructure**  
-- Teams building **real-world AI systems at scale**  
-
----
-
-## ⚡ Why Me
-
-- I don’t just use AI — I **build full systems around it**
-- Strong in **backend + data + ML integration**
-- Experience with **local LLM stacks (practical + production-focused)**
-
----
+</div>
