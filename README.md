@@ -68,18 +68,18 @@ Training and prediction tools for classifying flower images using **transfer lea
 <tr>
 <td width="50%" valign="top">
 
-#### [CollegeInfoScraper](https://github.com/krishangnaikar/CollegeInfoScraper)
-Automates collection and organization of college-related information, including links and admissions data.
+#### [Qiskit - Quantum State Visualization](https://github.com/Qiskit/qiskit/pull/16868)
+**Merged open-source contribution** adding X, Y, and Z ket-basis options to quantum state LaTeX visualization, with tests and a release note.
 
-`Python` `Web Scraping` `Data Extraction`
+`Python` `Qiskit` `Quantum Computing`
 
 </td>
 <td width="50%" valign="top">
 
-#### [Playground AI Discord Bot](https://github.com/krishangnaikar/PlaygroundAIDiscordBot)
-Discord bot project connecting chat commands with browser automation workflows.
+#### [Minecraft Quantum Simulator](https://github.com/krishangnaikar/Minecraft-Quantum-Simulator)
+A **one-qubit classical simulator built in redstone**, using stabilizer-state encoding for X, Z, Hadamard, and measurement logic. Includes a downloadable Minecraft Java world; a two-qubit extension is planned.
 
-`Python` `Discord` `Selenium`
+`Minecraft` `Redstone` `Stabilizer Simulation`
 
 </td>
 </tr>
